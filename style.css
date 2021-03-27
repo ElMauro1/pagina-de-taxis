@@ -1,0 +1,126 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: linear-gradient(black, gray, #ffc400, #ffc400, #ffc400, #ffc400, #ffc400, gray, black);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+img{
+    display: block;
+    height: 250px;
+    margin-left: 20%;
+    margin-top: 0;
+}
+
+/* CSS pagina de registro del ususario*/
+
+.formu2{
+    opacity: 0.9;
+    border: 2px solid black;
+    border-radius: 4%;
+    background-color: rgb(226, 215, 215);
+    width: 20%;
+    margin-top: 4%;
+    margin-left: 65%;    
+    padding:2%
+}
+
+p{
+    opacity: 1.0;
+    text-align: center;
+    font-size: 180%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    color:black;
+}
+
+.id{
+    opacity: 1.0;
+    height: 30px;
+    width: 99%;
+    margin-bottom: 3%;
+    font-size: 100%;
+    border-radius: 4%;
+}
+
+.nombre, .apellidos, .contraseña, .contraseña1, .edad, .telefono, .direccion, .vehiculo{
+    opacity: 1.0;
+    height: 30px;
+    width: 99%;    
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 100%;
+    border-radius: 4%;
+}
+
+.registrar{    
+    display: block;
+    margin: auto;
+    margin-top: 3%; 
+}
+
+/* CSS pagina de registro del vehiculo*/
+
+.placa{
+    opacity: 1.0;
+    height: 30px;
+    width: 99%;
+    margin-bottom: 3%;
+    font-size: 100%;
+    border-radius: 4%;
+}
+
+.referencia, .color, .id_ve, .propietario, .soat{
+    opacity: 1.0;
+    height: 30px;
+    width: 99%;    
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 100%;
+    border-radius: 4%;
+}
+
+.soat_0{
+    opacity: 1.0;
+    font-size: 120%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    color:black;
+}
+
+.registrar1{    
+    display: block;
+    margin: auto;
+    margin-top: 3%; 
+}
+
+.formu3{
+    opacity: 0.9;
+    border: 2px solid black;
+    border-radius: 4%;
+    background-color: rgb(226, 215, 215);
+    width: 20%;
+    margin-top: 9.5%;
+    margin-left: 65%;    
+    padding:2%
+}
+
+.f, .yes{
+    position:fixed;
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff;
+    margin-top:45%;
+	opacity:0.7;
+}
+

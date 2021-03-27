@@ -1,0 +1,90 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: linear-gradient(black, gray, #ffc400, #ffc400, #ffc400, #ffc400, #ffc400, gray, black);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+img{
+    display: block;
+    height: 250px;
+    margin: auto;
+    margin-top: 0;
+}
+
+.formu{
+    opacity: 0.9;
+    border: 2px solid black;
+    border-radius: 4%;
+    background-color: rgb(226, 215, 215);
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 65%;
+}
+
+p{
+    opacity: 1.0;
+    margin-left: 15%;
+    font-size: 180%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    color:black;
+}
+
+.usu{
+    opacity: 1.0;
+    height: 30px;
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    font-size: 50%;
+    border-radius: 4%;
+}
+
+.pass{
+    opacity: 1.0;
+    height: 30px;
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    font-size: 50%;
+    border-radius: 4%;
+}
+
+.ing{
+    margin-left: 15%;
+    width: 70%;
+    height: 30px;
+    margin-bottom: 2%;
+}
+.reg{
+    margin-left: 15%;
+    width: 70%;
+    height: 30px;
+    margin-bottom: 8%;
+}
+
+.f, .yes{
+    position:fixed;
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff;
+    margin-top:40%;
+	opacity:0.7;
+}
+
+table{
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+}
